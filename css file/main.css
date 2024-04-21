@@ -1,0 +1,85 @@
+p {
+  font-family: Arial;
+}
+
+.Maintitlebox{
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:40px;
+}
+
+.Maintitle{
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 17px;
+  background-color: rgb(96, 34, 35);
+  color: rgb(220, 220, 220);
+}
+.Maintitle:hover{
+  cursor:pointer;
+}
+
+
+.underbox{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.leftbox{
+  display:inline-block;
+  height: 800px;
+  
+}
+
+.chapter{
+  font-size: 19px;
+  color: rgb(94, 94, 94);
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  transition-delay: 0.05s;
+  font-family: toss, Arial;
+  
+}
+.chapter:hover{
+  opacity: 0.7;
+}
+
+.rightbox{
+  height: 800px;
+  margin-top: 40px;
+}
+
+.ploblems{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  text-align: center;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.eachprob{
+  font-size: 20px;
+  background-color:aliceblue;
+  color: rgb(84, 84, 84);
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: line-through;
+}
+.eachprob:hover{
+  background-color: rgb(161, 170, 255);
+  color: white;
+}
